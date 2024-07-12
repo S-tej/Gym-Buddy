@@ -1,0 +1,47 @@
+
+.traindet{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(42,42,42);
+    color:#17a2b8  !important;
+    padding-left: 30px;
+    align-items: flex-start;
+}
+.exercises{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(42,42,42);
+    color:#17a2b8  !important;
+    padding-left: 30px;
+    align-items: flex-end;
+}
+.black{
+    background-color:rgb(42,42,42);
+}
+.white{
+    color:#17a2b8  !important;
+}
+#exe{
+    background-color: rgb(42,42,42);
+    color:#17a2b8  !important;
+}
+.traindisplay{
+    background-color:rgb(42,42,42);
+}
+#hdng{
+    font-size:2.5rem;
+}
+#a{
+    font-size:1.5rem !important;
+    padding:30px;
+}
+#hdng{
+    font-size:2rem !important;
+    padding-right:50px;
+    padding-bottom:15px;
+}
+.exercises{
+    font-size:1.5rem !important;
+    padding:50px;
+    font-weight: 500;
+}

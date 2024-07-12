@@ -1,0 +1,52 @@
+#hero{
+    display: flex;
+  }
+ 
+  .left-h{
+    display:flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .saket{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: aliceblue;
+    text-overflow:inherit;
+  }
+ .hi{
+  background-color: aqua;
+ }
+  .figures{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .figures div span :nth-child(1){
+    color: aliceblue;
+    font-size: 2rem;
+  }
+  .figures div span :nth-child(2){
+    color: gray;
+    text-transform: uppercase;
+  }
+  .hero-image{
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    width: 3rem;
+
+  }
+  .hero-image-back{
+    position: absolute;
+    top: 4rem;
+    right : 20rem;
+    z-index: -1;
+  }
+  .image{
+    background-image:('../components/images/hero_image.png');
+    width:50px;
+  }
